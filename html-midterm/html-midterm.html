@@ -1,14 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
-    <html language="en">
-    
     <title>Error-Filled Page</title>
-    
+</head>
 <body>
-    <h1>Welcome to My Error-Filled Page
+    <h1>Welcome to My Error-Filled Page</h1>
     
-    This is a paragraph with mismatched tags and missing closing tags.</p>
+    <p> This is a paragraph with mismatched tags and missing closing tags.</p>
     
     <ol>
         <li>Item 1</li>
@@ -21,13 +19,13 @@
         <li>Item 8</li>
         <li>Item 9</li>
         <li>Item 10</li>
-    </ul>
+    </ol>
 
-    <p>This is another paragraph without proper indentation.
+    <p>This is another paragraph without proper indentation.</p>
     
-    <img src="image.jpg">
+    <img src="image.jpg" alt="Image">
 
-    <a href="https://www.example.com" target="_blank">Click me!</img>
+    <a href="https://www.example.com" target="_blank">Click me!</a>
 
     <table>
         <tr>
@@ -36,30 +34,56 @@
         </tr>
         <tr>
             <td>John</td>
-            <td>25<td>
+            <td>25</td>
         </tr>
         <tr>
             <td>Jane</td>
             <td>30</td>
         </tr>
-    
-    <img source="error.jpeg" alt="Error Image">
+    </table>
+    <img src="error.jpeg" alt="Error Image">
 
-    <center>This is centered text.</center>
+    <p style="text-align:center;"> This is centered </p>
 
-    <p bgcolor="lightgray">Text</p>
+    <p style="background-color: lightgray">Text</p>
 
     <input type="button" value="Click me">
 
-    <!-- This is an unclosed comment
+    <!-- This is an unclosed comment -->
 
-    <a href="#">Link without closing tag
+    <a href="#">Link without closing tag</a>
 
-    <p><em>Underlined text</p></em>
+    <p><u>Underlined text</u></p>
 
     <dl>
-        <li>Descriptive Item Title</li>
+        <dt>Descriptive Item Title</dt>
         <li>Descriptive Item Text</li>
     </dl>
 </body>
 </html>
+
+<ol>
+    <li> The top of the page needed !DOCTYPE added to the top </li>
+    <li> The language tag should be in the HTML part not the head tag </li>
+    <li> Adding the closing head tag, it was missing it. </li>
+    <li> Missing closing H1 tag in the 7th line </li>
+    <li> Closing paragraph tag was missing in the 9th line</li>
+    <li> the ordered list was closed with the wrong tag. fixedd it to ol closing tag. </li>
+    <li> closing p tag on line 24 added closing p tag </li>
+    <li> img line needed an alt name changed it to image</li>
+    <li> deleted closing img tag in lime 28 </li>
+    <li> closing a a tag needed in line 28</li>
+    <li> closing tag for the age below "john" was missing</li>
+    <li> closing table tag was missing</li>
+    <li> source change to src in line 44</li>
+    <li>insert p tag on line 46 because css is needed</li>
+    <li> Insert css style in order to have the sentance "this is centered" to appear in middle of page</li>
+    <li> add closing p tag to end of line 46 in order to fix</li>
+    <li>use css to style the text because what was in before isn't valid. add some spacing so that way it actually works with the color that is being asked.</li>
+    <li> close the comment that is on line 52 by adding two dashes and a closing tag</li>
+    <li>add closing tag on the link on line 56</li>
+    <li> sub the em tags with U tags in order to make the font underlined, and delete the ending em tag.</li>
+    <li>in line 59 the li tags for the descrtiptive title text should be DT tags for the descriptive title</li>
+
+
+
