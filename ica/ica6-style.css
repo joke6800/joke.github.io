@@ -39,3 +39,11 @@
   }
   
   /* Your CSS below here */
+
+ p {
+  padding-left: 30%;
+ }
+  
+  head {
+    background-color: white;
+  }
