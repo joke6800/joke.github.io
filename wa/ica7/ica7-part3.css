@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+    #narrowScreen {
+        background-color: purple;
+    }
+}
+@media screen and (min-width: 801px) {
+    #wideScreen {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-height: 499px) {
+    #shortScreen {
+        background-color: yellow;
+    }
+}
+@media screen and (min-height: 801px) {
+    #tallScreen {
+        background-color: orange;
+    }
+}
