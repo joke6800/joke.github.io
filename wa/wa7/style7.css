@@ -1,0 +1,136 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  #flex-parent{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  /*Its a struggle for me to get the nav bar to stick always, I don;t think I got it last week but tutorials helped for sure.*/
+  #flex-parent p {
+    margin: .5;
+  }
+#flex-child1{
+  order: 1;  /* I'm like 90% this is unneccesary but I found it from our ICA 7 part two, and I think it helps them stay in order*/
+}
+
+#flex-title{
+  display: flex;
+}
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  article {
+    width: 70%;
+  }
+  
+  aside {
+    width: 25%; 
+  }
+/*I can adjust these based on how much I want each column to take up, I thought this was good because not nearly as much space is needed for the photos. Especially if the photos will adjust on how big the page is.*/
+  nav {
+    background-color: #000;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    position: static;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  flex-wrap: wrap;
+  }
+  @media (min-width: 500px) {
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }  
+  .photos li {
+    width: calc(50% - 1px);
+    margin-right: 1px; 
+    margin-bottom: 1px; 
+    box-sizing: border-box;
+  }
+
+  .feature {
+      width: 200px;
+  }
+  article img.feature {
+    float: left; 
+    margin-right: 20px; 
+  }
+  
+  article p {
+    overflow: hidden;
+  }
+  @media (max-width: 500px) {
+    #flex-parent {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .photos li {
+      width: 100%;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+  
+    .photos img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    article img.feature {
+      float: none;
+      margin-right: 0;
+    }
+  
+    article p {
+      overflow: visible;
+    }
+  }
+  /*I had Chat GPT help with the media querys for screens smaller than 500px, it helped create the limits*/
