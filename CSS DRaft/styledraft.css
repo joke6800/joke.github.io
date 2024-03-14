@@ -1,0 +1,7 @@
+#classics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eb9b31; 
+    font-family: Arial, sans-serif; 
+}
