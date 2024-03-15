@@ -5,3 +5,61 @@
     background-color: #eb9b31; 
     font-family: Arial, sans-serif; 
 }
+
+#subheading {
+    background-color: #eb9b31;
+    text-align: center;
+}
+
+#greeting {
+    width: 230px;
+    height: 50px;
+    background-color: #eb9b31;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: auto; /* Horizontally center the button */
+    transition: height 0.3s ease;
+}
+
+#greeting-info {
+    display: none;
+    background-color: #ffc170;
+    padding: 10px;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    z-index: 1;
+}
+
+#greeting:hover + #greeting-info {
+    display: block;
+}
+
+#show-1 {
+    text-align: center;
+}
+
+#show-1-moreinfo {
+    width: 150px; /* Increased width */
+    height: 50px; /* Increased height */
+    background-color: #eb9b31;
+    text-align: center; /* Center text horizontally */
+    cursor: pointer;
+    margin: auto; /* Horizontally center the button */
+    line-height: 50px; /* Center text vertically */
+}
+
+#show-1-info {
+    display: none;
+    background-color: #ffc170;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    z-index: 1;
+}
+
+#show-1-moreinfo:hover + #show-1-info {
+    display: block;
+}
