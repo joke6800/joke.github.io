@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: #ff5733; 
+}
+
+nav {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ff5733; 
+}
+
+nav a {
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #d63300;
+}
+
+img {
+    width: 30vw;
+    height: 30vh;
+}
+
+#red-ball {
+    background-color: #ff5733;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    animation: bounce 5s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 200px;
+    }
+}
+/*I used chat gpt to help me ge the keyfram elemenet down and corect*/ 
