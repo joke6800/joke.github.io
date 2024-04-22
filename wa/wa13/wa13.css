@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b1fd93;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bubble {
+background-color: #feffb6;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+text-align: center;
+}
