@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analog Phone Keypad</title>
-    <link rel="stylesheet" href="phone.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="phone.css">
+  <title>Telephone</title>
 </head>
 <body>
+  <div class="telephone-container">
+    <img src="telephone.jpeg" alt="Telephone" class="telephone-image">
     <div class="keypad">
-        <input type="text" id="phoneNumber" readonly>
-        <div id="keypadButtons">
-            <!-- Buttons will be generated dynamically by JavaScript -->
-        </div>
+      <div class="row">
+        <img src="1key.jpeg" alt="1" class="key">
+        <img src="2key.jpeg" alt="2" class="key">
+        <img src="3key.jpeg" alt="3" class="key">
+      </div>
+      <div class="row">
+        <img src="4key.jpeg" alt="4" class="key">
+        <img src="5key.jpeg" alt="5" class="key">
+        <img src="6key.jpeg" alt="6" class="key">
+      </div>
+      <div class="row">
+        <img src="7key.jpeg" alt="7" class="key">
+        <img src="8key.jpeg" alt="8" class="key">
+        <img src="9key.jpeg" alt="9" class="key">
+      </div>
+      <div class="row">
+        <img src="0key.jpeg" alt="0" class="key">
+      </div>
     </div>
-    <script src="phone.js"></script>
+  </div>
+  <script src="phone.js"></script>
 </body>
 </html>

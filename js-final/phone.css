@@ -1,25 +1,33 @@
-body {
+.telephone-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .telephone-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .keypad {
+    position: absolute;
+    bottom: 20%;
+    left: 40%; /* Adjust the left offset to move the keypad to the right */
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* Adjust the width to your desired size */
+    height: auto;
+  }
+  
+  
+  .row {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.keypad {
-    text-align: center;
-}
-
-#phoneNumber {
-    margin-bottom: 20px;
-    font-size: 24px;
-    padding: 10px;
-    width: 200px;
-}
-
-button {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    font-size: 20px;
-}
+  }
+  
+  .key {
+    width: 14%; /* Adjust the width percentage according to your preference */
+    height: auto; /* This will maintain the aspect ratio */
+  }
+  
+  
+  
