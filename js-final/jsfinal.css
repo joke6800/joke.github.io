@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 10px; 
+}
+
+.box {
+    width: auto;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 2em;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+button.setBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.hyphen {
+    width: 20px;
+    height: 4px; 
+    background-color: black; 
+    border-left: 2px dashed #333;
+    margin-bottom: 50px;
+}
+
+.lockBtn {
+    background-color: #CBF6BB;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 1em;
+    border: none;
+}
+
+.resetBtn {
+    background-color: #FA8888;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 1em;
+}
